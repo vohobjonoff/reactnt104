@@ -2,14 +2,14 @@
 /* eslint-disable no-undef */
 import React from "react";
 import { createRoot } from "react-dom/client";
+import Header from "./components/Header";
+import './style.css'
 
-import Pet from "./components/Pet";
 
 const App = () => {
   return (
     <>
-      <h2>hello</h2>
-      <Pet name="Bobik" animal="dog" breed="milk" />
+     <Header />
     </>
   );
 };
